@@ -1,0 +1,7 @@
+---
+vault:
+  profile_d: /etc/profile.d/vault.sh
+  url: http://vault.service.consul:8200
+
+
+

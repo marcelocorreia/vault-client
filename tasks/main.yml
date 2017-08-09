@@ -1,0 +1,6 @@
+---
+- name: vault address env var
+  template:
+    src: vault.sh.j2
+    dest: "{{vault.profile_d}}"
+    mode: 0755
